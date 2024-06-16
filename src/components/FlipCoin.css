@@ -1,0 +1,42 @@
+/* Style for the FlipCoin component container */
+.flip-coin-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+/* Style for the heading */
+.flip-coin-container h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Style for the Coin image */
+.coin-image {
+  width: 150px;
+  height: 150px;
+  margin: 20px 0;
+}
+
+/* Style for the flip button */
+.flip-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for the flip button */
+.flip-button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the results paragraph */
+.flip-results {
+  font-size: 1.2em;
+  color: #555;
+}
